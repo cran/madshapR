@@ -2,7 +2,7 @@ Package: madshapR
 Type: Package
 Title: Support Technical Processes Following 'Maelstrom Research'
         Standards
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     c(person(given = "Guillaume",
              family = "Fabre",
@@ -10,16 +10,7 @@ Authors@R:
              email = "guijoseph.fabre@gmail.com",
              comment = c(ORCID = "0000-0002-0124-9970")),
       person("Maelstrom-research group",
-             role=c("cph", "fnd")),
-      person(given = "Alexandre",
-             family = "Trottier",
-             role=c("ctb")),
-      person(given = "Tina",
-             family = "Wey",
-             role=c("ctb")),
-      person(given = "Samuel",
-             family = "El Bouzaïdi Tiali",
-             role=c("ctb")))
+             role=c("cph", "fnd")))
 Description: Functions to support rigorous processes in data cleaning, 
      evaluation, and documentation across datasets from different studies based 
      on Maelstrom Research guidelines. The package includes the core functions 
@@ -32,9 +23,10 @@ Description: Functions to support rigorous processes in data cleaning,
 License: GPL-3
 LazyData: true
 Depends: R (>= 3.4)
-Imports: dplyr, rlang, stringr, crayon, ggplot2, tidytext, grDevices,
-        graphics, lubridate, janitor, forcats, knitr, haven, bookdown,
-        stats, DT, readr, tidyr, fs, utils, fabR (>= 2.0.0), lifecycle
+Imports: dplyr (>= 1.1.0), rlang, stringr, crayon, ggplot2, tidytext,
+        grDevices, graphics, lubridate, janitor, forcats, knitr, haven,
+        bookdown, stats, DT, readr, tidyr, fs, utils, fabR (>= 2.0.0),
+        lifecycle
 URL: https://github.com/maelstrom-research/madshapR
 BugReports: https://github.com/maelstrom-research/madshapR/issues
 RoxygenNote: 7.2.3
@@ -42,12 +34,9 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 Language: en-US
 NeedsCompilation: no
-Packaged: 2023-10-09 07:40:13 UTC; guill
+Packaged: 2023-12-19 18:35:00 UTC; guill
 Author: Guillaume Fabre [aut, cre] (<https://orcid.org/0000-0002-0124-9970>),
-  Maelstrom-research group [cph, fnd],
-  Alexandre Trottier [ctb],
-  Tina Wey [ctb],
-  Samuel El Bouzaïdi Tiali [ctb]
+  Maelstrom-research group [cph, fnd]
 Maintainer: Guillaume Fabre <guijoseph.fabre@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-10-09 13:00:02 UTC
+Date/Publication: 2023-12-19 19:10:02 UTC
