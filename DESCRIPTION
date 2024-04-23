@@ -2,7 +2,7 @@ Package: madshapR
 Type: Package
 Title: Support Technical Processes Following 'Maelstrom Research'
         Standards
-Version: 1.0.3
+Version: 1.1.0
 Authors@R: 
     c(person(given = "Guillaume",
              family = "Fabre",
@@ -34,9 +34,9 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 Language: en-US
 NeedsCompilation: no
-Packaged: 2023-12-19 18:35:00 UTC; guill
+Packaged: 2024-04-23 14:42:58 UTC; guill
 Author: Guillaume Fabre [aut, cre] (<https://orcid.org/0000-0002-0124-9970>),
   Maelstrom-research group [cph, fnd]
 Maintainer: Guillaume Fabre <guijoseph.fabre@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-12-19 19:10:02 UTC
+Date/Publication: 2024-04-23 15:10:02 UTC

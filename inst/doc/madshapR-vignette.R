@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 #  
 #  library(madshapR)
 #  # If you need help with the package, please use:
-#  madshapR_help()
+#  madshapR_website()
 #  
 #  # Downloadable templates are available here
 #  madshapR_templates()
